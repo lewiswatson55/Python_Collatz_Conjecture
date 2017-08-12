@@ -9,7 +9,12 @@ I created this because I wanted to. No real reason just got bored. Feel free to 
 <br>
 <i>
 UPDATE LOG:
+<br>
+
 
 12/08/17:
-  Created and added to Github
-  Basic Output Design
+<ul>
+  <li> Created and added to Github</li>
+  <li>  Basic Output Design</li>
+  <li> Some known bugs/issues</li>
+</ul>
