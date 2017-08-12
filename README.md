@@ -7,6 +7,9 @@ This is a short python program that checks if a number will reach 1 through the 
 I created this because I wanted to. No real reason just got bored. Feel free to use, I guess.
 
 
+
+
+<i>
 UPDATE LOG:
 
 12/08/17:
