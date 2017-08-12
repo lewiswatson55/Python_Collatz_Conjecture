@@ -1,5 +1,7 @@
 #Collatz Conjecture Program MockUp
 #Created by Lewis Watson
+#Just saving this here incase I need to debug stuff.
+
 
 def Select_Number():
     n = int(input("Select the number you wish to calculate? "))
