@@ -11,6 +11,16 @@ I created this because I wanted to. No real reason just got bored. Feel free to 
 UPDATE LOG:
 <br>
 
+13/08/17 (02:24):
+<ul>
+  <li> Added Iteration Count
+  <li> Fixed 0 Loop Error
+  <li> Added AVGTIME to TestStuffs
+  <li> Solved Max Float Error
+  <li> Removed Printing Of Numbers (Due to reduced speeds)
+ </ul>
+ <br>
+ <p> Although printing has been removed to increase speeds it can enabled by uncommenting the two print lines in the code. The speed issue is really only visible on large numbers </p>
 
 12/08/17:
 <ul>
