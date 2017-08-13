@@ -1,25 +1,41 @@
 #Collatz Conjecture Program
-#Created by Lewis Watson
+#Created by Lewis Watson (aka Wo)
+
+from time import clock
+it_count = 0
+n = 0
 
 def Select_Number():
-    n = int(input("Select the number you wish to calculate? "))
-    return n
+    print ("")
+    sn = int(input("Select the number you wish to calculate? "))
+    if (sn == 0):
+        print ("This number is invalid.")
+        print ()
+        print ()
+        Select_Number();
+    else:
+        Calculate(sn);
 
-def Calculate():
-    n = Select_Number();
+def Calculate(n):
+    global it_count
+    it_count = 0
 
+    start = clock()
     while n != 1:
-        if (n % 2 == 0):
-            n = (n/2)
-            print (str(n) + " (Even)")
+        if (n % 2):
+            n = (n*3+1)
+            #print (n) #Prints All Numbers (Slows Program Speed)
+            it_count += 1
         else:
-            n = (3*n+1)
-            print (str(n) + " (Odd)")
+            n = (n//2)
+            #print (n) #Prints All Numbers (Slows Program Speed)
+            it_count += 1
 
-    print ("The number has reached 1")
+    end = clock()
+    print ("The number has reached " + str(n) + " with only " + str(it_count) + " iterations! (Time taken: " + format(end-start, ".10f") + " seconds.)")
     print()
-    Calculate();
+    Select_Number();
 
-Calculate();
+Select_Number();
 
 
