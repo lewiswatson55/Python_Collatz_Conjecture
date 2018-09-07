@@ -1,5 +1,5 @@
 #Collatz Conjecture Program
-#Created by Lewis Watson (aka Wo)
+#Created by Lewis Watson
 
 from time import clock
 it_count = 0
