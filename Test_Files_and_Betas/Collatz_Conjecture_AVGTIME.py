@@ -1,5 +1,5 @@
 #Collatz Conjecture Program
-#Created by Lewis Watson (aka Wo)
+#Created by Lewis Watson
 #This is for testing the average time taken to work down to 1 from any number. 
 
 from time import clock
