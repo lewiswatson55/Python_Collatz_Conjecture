@@ -4,7 +4,7 @@ Python Collatz Conjecture Calculator
 
 This is a short python program that checks if a number will reach 1 through the 'Collatz Conjecture' process.
 
-I created this because I wanted to. No real reason just got bored and decided to play around with Python3 whilst doing an online course. Feel free to use, I guess.
+I created this whilst learning how to program with python3. The program uses a while loop; some parameter passing, global variables, formatting, and some other interesting programming consepts.
 
 <br>
 <i>
